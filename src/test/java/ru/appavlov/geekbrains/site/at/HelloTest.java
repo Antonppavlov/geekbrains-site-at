@@ -10,5 +10,6 @@ public class HelloTest {
     void name() {
         String hello = new Hello().hello();
         assertEquals("Hello", hello);
+        assertEquals("Hello", hello);
     }
 }
